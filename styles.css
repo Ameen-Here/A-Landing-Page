@@ -27,7 +27,7 @@ body{
     background-color: #1f2937;
     color: white;
     align-items: center;
-    padding: 20px 180px;
+    padding: 20px 250px;
 }
 
 .nav-links ul{
@@ -41,10 +41,97 @@ body{
 
 .nav-links,
 .header-content p{
-    font-size: 18px;
+    font-size: 20px;
     color: #e5e7eb;
 }
 
 li{
     list-style: none;
+}
+
+/* Header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 250px;
+    background-color: #1f2937;
+    gap:70px;
+}
+
+.header h1{
+   font-size: 48px;
+   font-weight:bolder;
+   color: #f9faf8;
+}
+
+.header-img img{
+   height: 500px;
+   width:790px;
+}
+
+.header-content p{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.header-btn{
+    background-color: #3882F6;
+    font-weight: bold;
+    color: #f9faf8;
+    padding:10px 40px;
+    border-radius: 10px;
+}
+
+/* Main ccontainer */
+.main-content{
+    text-align: center;
+    padding: 100px 270px;
+}
+
+.main-containers{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 110px;
+}
+
+.main-content h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937
+}
+
+.containers{
+    width:250px;
+    font-size: 18px;
+    color:rgb(85, 85, 85)
+}
+
+.containers img{
+    height:250px;
+    width:250px;
+    border-radius: 15px;
+}
+
+/* Testimonial */
+.testimonail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:140px 400px;
+    background-color: #e5e7eb;
+    gap: 20px;
+}
+
+.testimonail p{
+    font-size: 40px;
+    font-weight:100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.test-author{
+    align-self: flex-end;
+    color: black;
+    font-weight: bolder;
 }
