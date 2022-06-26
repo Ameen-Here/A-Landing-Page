@@ -1,5 +1,50 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0
+    
+}
+
+body{
+    font-family: Roboto, sans-serif;font-family: Roboto, sans-serif;font-family: Roboto, sans-serif;font-family: Roboto, sans-serif;font-family: Roboto, sans-serif;font-family: Roboto, sans-serif;font-family: Roboto, sans-serif;font-family: Roboto, sans-serif;font-family: Roboto, sans-serif;font-family: Roboto, sans-serif;font-family: Roboto, sans-serif;font-family: Roboto, sans-serif;font-family: Roboto, sans-serif;font-family: Roboto, sans-serif;font-family: Roboto, sans-serif;font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.main-contents{
+    flex:1;
+}
+
+/* Navigation */
+.navigation,
+.nav-links ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation{
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+    padding: 20px 180px;
+}
+
+.nav-links ul{
+    gap: 30px;
+}
+
+.nav-header{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.nav-links,
+.header-content p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+li{
+    list-style: none;
 }
