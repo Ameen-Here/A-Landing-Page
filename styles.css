@@ -27,7 +27,7 @@ body{
     background-color: #1f2937;
     color: white;
     align-items: center;
-    padding: 20px 250px;
+    padding: 20px 300px;
 }
 
 .nav-links ul{
@@ -53,20 +53,22 @@ li{
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 120px 250px;
+    padding: 120px 300px;
     background-color: #1f2937;
-    gap:70px;
+    gap:180px;
 }
 
 .header h1{
    font-size: 48px;
    font-weight:bolder;
    color: #f9faf8;
+
 }
 
 .header-img img{
-   height: 500px;
-   width:790px;
+   height: 250px;
+   width:600px;
+   flex-shrink: 0;
 }
 
 .header-content p{
@@ -110,6 +112,7 @@ li{
     height:250px;
     width:250px;
     border-radius: 15px;
+    border: 3px #3882F6 solid;
 }
 
 /* Testimonial */
@@ -118,7 +121,7 @@ li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding:140px 400px;
+    padding:180px 600px;
     background-color: #e5e7eb;
     gap: 20px;
 }
@@ -127,11 +130,49 @@ li{
     font-size: 40px;
     font-weight:100;
     font-style: italic;
-    color: #1f2937;
+    color: #454545;
 }
 
 .test-author{
     align-self: flex-end;
     color: black;
+    font-size: 22px;
     font-weight: bolder;
+}
+
+/* Call to action */
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 180px 300px;
+}
+
+.sign-up-body{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 70px 120px;
+    color: #e5e7eb;
+    border-radius: 10px;
+}
+
+.sign-up-btn{
+    background-color: #3882F6;
+    font-weight: bold;
+    color: #f9faf8;
+    padding:10px 40px;
+    border-radius: 10px;
+    border: 1px white solid;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    background-color: #1f2937;
+    padding: 45px 120px;
+    color: #e5e7eb;
 }
